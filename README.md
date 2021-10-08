@@ -2,7 +2,7 @@
 
 [![Pub](https://img.shields.io/pub/v/jm_dict.svg)](https://pub.dartlang.org/packages/jm_dict)
 
-Implementation of the Open Source [JMdict Japanese Dictionary Project](http://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project) as a Flutter plugin.
+Implementation of the [JMdict Japanese Dictionary Project](http://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project) as a Flutter plugin.
 
 ## Getting Started
 
@@ -112,3 +112,12 @@ There are some use cases to consider when searching:
 - Each entry in the dictionary has more accessible traits, which is available on search results, e.g: dialects,   word category, etc. For this release, the query process will only look for keywords in kana, romaji, and   kanji texts only and further filters can be created manually, e.g using **_List.where_**. This will be considered   in future releases as well.
 - Sorting isn't available for now. You can use **_List.sort_** for now and specify your own sorting preferences.
 - There's a consideration of writing certain entries into the local database, to reduce the DB size. For now   this plugin writes the whole file.
+
+## Attribution and Credits
+
+[![CC BY-SA 3.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/3.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/3.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+This package uses the [JMdict/EDICT](http://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project) and [KANJIDIC](http://www.edrdg.org/wiki/index.php/KANJIDIC_Project) dictionary files. These files are the property of  the [Electronic Dictionary Research and Development Group](http://www.edrdg.org/), and are used in conformance with the Group's [licence](http://www.edrdg.org/edrdg/licence.html) which is licensed under [Creative Commons Attribution-ShareAlike 3.0 Unported][cc-by-sa]..
