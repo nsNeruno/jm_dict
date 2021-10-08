@@ -1,6 +1,6 @@
 name: jm_dict
 description: Implementation of the Open Source JMdict Japanese Dictionary Project as a Flutter plugin.
-version: 0.1.0+2
+version: 0.1.0+3
 repository: https://github.com/nsNeruno/jm_dict
 
 environment:
