@@ -1,5 +1,4 @@
 import 'package:kana_kit/kana_kit.dart';
-import 'package:meta/meta.dart';
 import 'constants.dart';
 import 'utils.dart';
 import 'package:objectbox/objectbox.dart';
@@ -27,7 +26,6 @@ extension _StringCleaner on String {
   String get trimDelimiter => this.replaceAll(_delimiterTrimRegex, "",);
 }
 
-@internal
 @Entity()
 class JMDictEntryImpl implements JMDictEntry {
 
@@ -182,7 +180,6 @@ class JMDictEntryImpl implements JMDictEntry {
     _senseElements = senses;
   }
 
-  @internal
   JMDictEntryImpl({
     required this.entSeq,
 
@@ -214,7 +211,6 @@ class JMDictEntryImpl implements JMDictEntry {
     _prepareSenseElements();
   }
 
-  @internal
   static JMDictEntryImpl? map(Map<String, dynamic>? map,) {
     if (map != null) {
       dynamic entrySequence = map["ent_seq"];

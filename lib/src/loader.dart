@@ -6,7 +6,6 @@ import 'dart:typed_data';
 
 import 'package:jm_dict/objectbox.g.dart';
 import 'package:jm_dict/src/entities.dart';
-import 'package:meta/meta.dart';
 import 'package:archive/archive.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
@@ -299,7 +298,6 @@ class _JMDictDownloader {
   }
 }
 
-@internal
 class JMDictUpdater {
 
   static Future<Uint8List?> _downloadAndProcessLatestFile(int? timeout, [String? downloadUrl,]) async {

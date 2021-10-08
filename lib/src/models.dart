@@ -4,8 +4,6 @@ import 'package:kana_kit/kana_kit.dart';
 
 import 'enums.dart';
 
-import 'package:meta/meta.dart';
-
 final RegExp _nfRegex = RegExp(r"^nf\d{2}$",);
 
 /// The kanji element, or in its absence, the reading element, is
@@ -22,7 +20,6 @@ final RegExp _nfRegex = RegExp(r"^nf\d{2}$",);
 /// Quoted from JMdict:45-54
 class KanjiElement {
 
-  @internal
   KanjiElement(this.element, Set<String>? keInf, Set<String>? kePri,)
       : information = _information(keInf,) {
     final pris = _priorities(kePri,);
@@ -116,7 +113,6 @@ class KanjiElement {
 /// Quoted from JMdict:101-106
 class ReadingElement {
 
-  @internal
   ReadingElement(this.element, this.readingRestrictions, Set<String>? reInf, Set<String>? rePri, [this.noKanji = false])
       : information = _information(reInf,) {
     final pris = _priorities(rePri,);
@@ -297,7 +293,6 @@ class SenseLanguageSource {
 /// Quoted from JMdict:199-202
 class SenseGlossary {
 
-  @internal
   SenseGlossary(this.text, String? lang, String? gType,)
       : language = _language(lang,),
         type = gType != null ? _gType[gType] : null;

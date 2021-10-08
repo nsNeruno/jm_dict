@@ -1,11 +1,8 @@
 import 'package:kana_kit/kana_kit.dart';
-import 'package:meta/meta.dart';
-import 'package:objectbox/objectbox.dart';
 
 import '../objectbox.g.dart';
 import 'entities.dart';
 
-@internal
 class JMDictSeeker {
 
   final KanaKit _kanaKit = KanaKit();
