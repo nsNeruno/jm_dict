@@ -4,7 +4,7 @@ import 'dart:io';
 import 'dart:isolate';
 import 'dart:typed_data';
 
-import 'package:jm_dict/objectbox.g.dart';
+import 'package:jm_dict/src/objectbox/objectbox.g.dart';
 import 'package:jm_dict/src/entities.dart';
 import 'package:archive/archive.dart';
 import 'package:flutter/foundation.dart';
@@ -31,7 +31,6 @@ Future<File?> _unarchive(Uint8List bytes,) async {
   }
 }
 
-@internal
 class JMDictLoader {
 
   bool _popAndInsert(List<JMDictEntryImpl> entries, Store store,) {

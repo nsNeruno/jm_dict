@@ -9,7 +9,7 @@ import 'package:jm_dict/src/seeker.dart';
 import 'package:jm_dict/src/utils.dart';
 import 'package:path_provider/path_provider.dart';
 
-import 'objectbox.g.dart';
+import 'src/objectbox/objectbox.g.dart';
 
 export 'src/enums.dart';
 export 'src/models.dart';
