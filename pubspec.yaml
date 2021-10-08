@@ -1,6 +1,6 @@
 name: jm_dict
 description: JMDict Japanese Dictionary.
-version: 0.1.0
+version: 0.1.0+1
 repository: https://github.com/nsNeruno/jm_dict
 
 environment:
