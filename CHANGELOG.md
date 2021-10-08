@@ -1,3 +1,7 @@
+## 0.1.0+3
+
+* Added stronger affirmation of the licensing matters on README.md
+
 ## 0.1.0+2
 
 * Updated wrong LICENSE from MIT to CC-BY-SA 3.0

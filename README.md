@@ -4,6 +4,8 @@
 
 Implementation of the [JMdict Japanese Dictionary Project](http://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project) as a Flutter plugin.
 
+**Usage of this plugin must conform to the [Attribution and Credits](https://pub.dev/packages/jm_dict#attribution-and-credits) section below.**
+
 ## Getting Started
 
 This plugin enables your app to load and use the Japanese Dictionary provided by JMdict/EDICT Project.    Supports looking up entries by kana, romaji, kanji and the meaning/glossary content.  Currently doesn't support entry editing.
@@ -120,4 +122,4 @@ There are some use cases to consider when searching:
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/3.0/
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/3.0/88x31.png
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
-This package uses the [JMdict/EDICT](http://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project) and [KANJIDIC](http://www.edrdg.org/wiki/index.php/KANJIDIC_Project) dictionary files. These files are the property of  the [Electronic Dictionary Research and Development Group](http://www.edrdg.org/), and are used in conformance with the Group's [licence](http://www.edrdg.org/edrdg/licence.html) which is licensed under [Creative Commons Attribution-ShareAlike 3.0 Unported][cc-by-sa]..
+This package uses the [JMdict/EDICT](http://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project) dictionary file. This file is the property of  the [Electronic Dictionary Research and Development Group](http://www.edrdg.org/), and is used in conformance with the Group's [licence](http://www.edrdg.org/edrdg/licence.html) which are made available under [Creative Commons Attribution-ShareAlike 3.0 Unported][cc-by-sa].
