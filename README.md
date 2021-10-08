@@ -26,6 +26,7 @@ import 'package:jm_dict/jm_dict.dart';
 
 JMDict().initFromAsset(assetPath: "assets/JMdict.gz",);
 ```
+Why init from the gz file? The real XML file has the size of ±100MBs, which is too large to be<br/> included locally as an asset
 
 ### Provide from File
 Let's say you obtained the content of JMdict.gz, which is the JMdict XML file somewhere, you can<br/>call the **_initFromFile_** method.
@@ -110,3 +111,4 @@ There are some use cases to consider when searching:
 - Searching using mixed keywords won't work, e.g "hige男", "kamisatoけ". This will be considered in future<br/>versions
 - Each entry in the dictionary has more accessible traits, which is available on search results, e.g: dialects,<br/> word category, etc. For this release, the query process will only look for keywords in kana, romaji, and<br/> kanji texts only and further filters can be created manually, e.g using **_List.where_**. This will be considered<br/> in future releases as well.
 - Sorting isn't available for now. You can use **_List.sort_** for now and specify your own sorting preferences.
+- There's a consideration of writing certain entries into the local database, to reduce the DB size. For now<br/> this plugin writes the whole file.
