@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:isolate';
 
-import 'package:jm_dict/objectbox.g.dart';
+import 'package:jm_dict/src/objectbox/objectbox.g.dart';
 import 'package:jm_dict/src/entities.dart';
 import 'package:archive/archive.dart';
 import 'package:flutter/foundation.dart';

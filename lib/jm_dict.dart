@@ -2,7 +2,7 @@ library jm_dict;
 
 import 'dart:io';
 
-import 'package:jm_dict/objectbox.g.dart';
+import 'package:jm_dict/src/objectbox/objectbox.g.dart';
 import 'package:jm_dict/src/entities.dart';
 import 'package:jm_dict/src/loader.dart';
 import 'package:jm_dict/src/models.dart';
