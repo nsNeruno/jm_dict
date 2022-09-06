@@ -1,6 +1,6 @@
 name: jm_dict
 description: Implementation of the Open Source JMdict Japanese Dictionary Project as a Flutter plugin.
-version: 0.1.0+3
+version: 0.2.0
 repository: https://github.com/nsNeruno/jm_dict
 
 environment:
@@ -11,25 +11,27 @@ dependencies:
   flutter:
     sdk: flutter
 
-  archive: ^3.1.2
+  archive: ^3.3.1
 
   kana_kit: ^2.0.0
 
-  objectbox: ^1.2.0
+  objectbox: ^1.6.2
 
-  objectbox_flutter_libs: ^1.2.0
+  objectbox_flutter_libs: ^1.6.2
 
-  path_provider: ^2.0.4
+  path_provider: ^2.0.11
 
-  xml: ^5.3.0
+  platform: ^3.1.0
+
+  xml: ^6.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  build_runner: ^1.0.0
+  build_runner: ^1.6.9
 
-  objectbox_generator: ^1.2.0
+  objectbox_generator: ^1.6.2
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

@@ -1,6 +1,6 @@
+import 'package:jm_dict/objectbox.g.dart';
 import 'package:kana_kit/kana_kit.dart';
 
-import 'package:jm_dict/src/objectbox/objectbox.g.dart';
 import 'entities.dart';
 
 class JMDictSeeker {

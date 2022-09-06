@@ -2,14 +2,13 @@ library jm_dict;
 
 import 'dart:io';
 
+import 'package:jm_dict/objectbox.g.dart';
 import 'package:jm_dict/src/entities.dart';
 import 'package:jm_dict/src/loader.dart';
 import 'package:jm_dict/src/models.dart';
 import 'package:jm_dict/src/seeker.dart';
 import 'package:jm_dict/src/utils.dart';
 import 'package:path_provider/path_provider.dart';
-
-import 'src/objectbox/objectbox.g.dart';
 
 export 'src/enums.dart';
 export 'src/models.dart';

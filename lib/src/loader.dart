@@ -2,9 +2,8 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 import 'dart:isolate';
-import 'dart:typed_data';
 
-import 'package:jm_dict/src/objectbox/objectbox.g.dart';
+import 'package:jm_dict/objectbox.g.dart';
 import 'package:jm_dict/src/entities.dart';
 import 'package:archive/archive.dart';
 import 'package:flutter/foundation.dart';
@@ -111,7 +110,7 @@ class JMDictLoader {
     if (!_isLoading) {
       return;
     }
-    final parentEvent = event.parentEvent;
+    final parentEvent = event.parent;
     if (parentEvent != null) {
       final text = event.text;
       final name = parentEvent.name;
